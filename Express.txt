@@ -1,0 +1,59 @@
+
+
+Install Express
+
+Version - 4.17
+
+Install nodemon 
+	For server restart on change
+	
+set port
+
+Add a get path
+	send String
+	send status
+
+send JSON response
+
+Send a file as response
+
+send HTML
+	render/view engine via ejs
+		pass some dynamic data
+	render/view engine via React
+
+Add Routes
+	
+	
+Add a post request in Route
+	
+Add get request with Path param
+Add get request with Query param
+
+Group the route with same url and diff http mehtod
+
+run middleware with param
+
+create a middleware e.g. logger
+
+add a logger/function on a endpoint
+
+serve static files
+
+accept JSON or Form
+
+
+Add a TypeScript to project
+
+npm install -g typescript
+tsc --init
+
+  372  npm install -D typescript
+  373  npm install -D ts-node
+  374  npm install -D @types/express
+  375  npm install -D @types/node
+  376  npm install -D @types/aync
+  377  npm install -D @types/async
+
+
+
