@@ -57,3 +57,5 @@ tsc --init
 
 
 
+npm install @openapitools/openapi-generator-cli -g
+openapi-generator-cli generate -g typescript-rxjs -i swagger.json -p enumPropertyNaming=UPPERCASE
