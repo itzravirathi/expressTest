@@ -14,7 +14,7 @@ app.use('/users',userRouter)
 app.get('/', (req, res) => {
     console.log("Home page");
     res.status(200)
-        .render("index",{name: "Ravi Prakash Rathi"});
+        .render("index",{name: "Max Muster"});
 })
 
 app.get('/string', (req, res) => {

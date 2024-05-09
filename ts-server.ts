@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended : true}));
 app.get('/', (req: Request, res: Response) => {
     console.log("Home page");
     res.status(200)
-        .render("index",{name: "Ravi Prakash Rathi"});
+        .render("index",{name: "Max Muster"});
 
     const options: AxiosRequestConfig = {
         method: 'GET',
